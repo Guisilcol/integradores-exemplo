@@ -1,0 +1,8 @@
+{
+  "name": "async-rule-example",
+  "cron_pattern": null,
+  "integration_code": "ASYNC_RULE_START",
+  "targets": [
+    "arn:aws:states:us-east-2:${ACCOUNT_ID}:stateMachine:sfn-async-start"
+  ]
+}

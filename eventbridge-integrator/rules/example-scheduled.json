@@ -1,0 +1,8 @@
+{
+  "name": "scheduled-rule-example",
+  "cron_pattern": "0 2 * * ? *",
+  "integration_code": null,
+  "targets": [
+    "arn:aws:states:us-east-2:${ACCOUNT_ID}:stateMachine:sfn-scheduled-start"
+  ]
+}
